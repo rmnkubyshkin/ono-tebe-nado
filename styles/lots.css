@@ -1,7 +1,5 @@
-@import url(general.css);
-
 .lots {
-  width: 100%;  
+  width: 100%;
   margin-top: 171px;
   margin-left: 8px;
 }
@@ -49,7 +47,7 @@
   width: 328px;
   height: 554px;
   padding-bottom: 0px;
-  background-position: center; 
+  background-position: center;
 }
 
 .card__title {
@@ -84,7 +82,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  text-align: left; 
   text-align: start;
 }
 

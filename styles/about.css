@@ -2,7 +2,7 @@
   display: grid;
   flex-wrap: nowrap;
   grid-auto-flow: column;
-  width: 100%;  
+  width: 100%;
   margin-top: 180px;
 }
 
@@ -31,7 +31,7 @@
   width: 148px;
   height: 114px;
   margin: 63px 129px;
-  object-fit: contain; 
+  object-fit: contain;
 }
 
 .about__column {
@@ -57,5 +57,5 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 23.48px;
-  text-align: left;  
+  text-align: left;
 }
