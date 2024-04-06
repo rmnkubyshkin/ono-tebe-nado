@@ -1,0 +1,95 @@
+@import url(/fonts/fonts.css);
+@import url(general.css);
+
+.cover {
+  position: relative;
+  z-index: -1; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1082px;
+  height: 743px;
+  margin: 5px 2px 0 15px; 
+  background-position: center;
+  background-size: cover;
+}
+
+.cover__title {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 1083px;
+  margin: 163px 47px 0 45px; 
+}
+
+.aligned-text {
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;;
+  font-size: 100px;
+  line-height: 115px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.aligned-text_left {
+  margin-left: 47px;
+}
+
+.aligned-text_center {
+  margin-top: 10px; 
+  margin-left: 330px;
+}
+
+.aligned-text_right {
+  align-self: flex-end;
+  margin-top: 4px;
+  margin-right: 20px;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 58px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 29px;
+}
+
+.cover__description {
+  position: absolute;
+  z-index: 2; 
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 656px 50px 60px 53px;
+}
+
+.cover__description-text {
+  width: 633px;  
+  margin-left: 28px;
+  line-height: 28px;
+  text-align: start;
+  word-spacing: 17px;
+}
+
+.bet-button {
+  position: relative;
+  margin-top: -12px; 
+  margin-left: 64px;
+  border: 2px solid #fff;
+  padding: 12px 30px; 
+  line-height: 25.83px;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0);
+}
+
+.cover-text {
+  color: white;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;;
+  font-size: 22px;
+  text-transform: uppercase;
+}

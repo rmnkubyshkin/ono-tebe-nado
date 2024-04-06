@@ -1,0 +1,58 @@
+@import url(/fonts/fonts.css);
+@import url(header.css);
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 100px;
+  margin: 175px 5px 89px 5px;  
+}
+
+.footer_address {
+  width:100%;
+  min-height: 100px;
+}
+
+.footer__address-position {
+  padding-left: 57px;
+}
+
+.footer__menu {
+  display: flex;
+  justify-content: center;
+  column-gap: 45px;
+  width:100%;
+  min-height: 100px;
+  padding-top: 2px;
+  padding-right: 56px;
+  padding-left: 53px;
+}
+
+.footer__menu-list {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  column-gap: 35px;
+  line-height: 21.13px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 45px;
+  width:100%;
+  min-height: 100px;
+  padding-right: 56px;
+  list-style-type: none;
+}
+
+.footer__social-icon {
+  height: 50px;
+}

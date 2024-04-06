@@ -1,0 +1,61 @@
+.about {
+  display: grid;
+  flex-wrap: nowrap;
+  grid-auto-flow: column;
+  width: 100%;  
+  margin-top: 180px;
+}
+
+.about__logo {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  width: 352px;
+  height: 237px;
+}
+
+.dot {
+  z-index: 1;
+  display: inline-block;
+  width: 237px;
+  height: 237px;
+  margin-top: 6px;
+  margin-left: 55px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.about__logo-image {
+  position: absolute;
+  z-index: 2;
+  width: 148px;
+  height: 114px;
+  margin: 63px 129px;
+  object-fit: contain; 
+}
+
+.about__column {
+  width: 715px;
+  padding-top: 93px;
+}
+
+.about__title {
+  margin-left: -44px;
+}
+
+.about__text {
+  padding: 77px 0 0 22px;
+}
+
+.about_paragraph {
+  padding-top: 22px;
+  color: #000;
+}
+
+.about__card-text {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.48px;
+  text-align: left;  
+}

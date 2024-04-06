@@ -1,0 +1,102 @@
+@import url(general.css);
+
+.lots {
+  width: 100%;  
+  margin-top: 171px;
+  margin-left: 8px;
+}
+
+.lots__heading {
+  display: grid;
+  grid-auto-flow: row;
+  padding-top: 8px;
+  padding-left: 67px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.96px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  flex-direction: row;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  padding: 23px 10px 50px 32px;
+  overflow: auto;
+  list-style-type: none;
+}
+
+.lots__card-list-item {
+  display: grid;
+}
+
+.card-link {
+  z-index: 3;
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  align-content: space-between;
+  width: 328px;
+  height: 554px;
+  padding-bottom: 0px;
+  background-position: center; 
+}
+
+.card__title {
+  position: absolute;
+  z-index: 1;
+  margin: 48px 30px 30px 38px ;
+  color: white;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26.4px;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-transform: uppercase;
+}
+
+.card_type_book {
+  z-index: -1;
+  min-height: 114%;
+  object-fit: cover;
+  background-position: center;
+}
+
+.card__text {
+  position: absolute;
+  z-index: 1;
+  align-self: end;
+  margin: 150px 35px 47px 38px ;
+  color: white;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left; 
+  text-align: start;
+}
+
+.lots__look-more-link {
+  position: absolute;
+  margin-top: -20px;
+  padding-left: 70px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.48px;
+  text-align: left;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}

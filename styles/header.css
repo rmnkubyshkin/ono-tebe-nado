@@ -1,0 +1,57 @@
+@import url(/fonts/fonts.css);
+@import url(general.css);
+
+.header {
+  display: flex;
+  justify-content: space-between; 
+  box-sizing: border-box;
+  max-width: 100%;
+  max-height: 105px;
+  margin: 92px 24px 96px 24px;
+
+}
+
+.header__menu {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  height: 30px;
+  margin: 43px 0px 43px 34px;
+}
+
+.header__links-list {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  column-gap: 35px;
+  line-height: 21.13px;
+  text-align: left;
+}
+
+.header__links-list-item {
+  list-style-type: circle;
+}
+
+
+.header__logo {
+  display: block;
+  align-items: stretch;
+  width: 135px;
+  margin: 3px 180px 0px 35px;
+}
+
+.header__logo_image {
+  width: 100%;
+}
+
+.header_address-position {
+  margin: 4px 25px 26px 0px;
+}
+
+.header_address {
+  flex-wrap: wrap;
+  width: 240px;
+  line-height: 24.3px;
+  text-align: left;
+}

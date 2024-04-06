@@ -15,3 +15,32 @@
   font-weight: bold;
   font-display: swap;
 }
+
+.address {
+  display: flex;
+  justify-content: start;
+  align-content: space-between;
+  padding-top: 5px;
+  font-style: normal;
+}
+
+.menu-text {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.header__link {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header-text {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
