@@ -4,7 +4,7 @@
   box-sizing: border-box;
   max-width: 100%;
   max-height: 105px;
-  margin: 92px 24px 96px 24px;
+  margin: 92px 24px 98px 24px;
 
 }
 
@@ -21,7 +21,7 @@
   display: inline-flex;
   flex-wrap: nowrap;
   justify-content: space-between;
-  column-gap: 35px;
+  column-gap: 32px;
   line-height: 21.13px;
   text-align: left;
 }
@@ -35,7 +35,7 @@
   display: block;
   align-items: stretch;
   width: 135px;
-  margin: 3px 180px 0px 35px;
+  margin: 3px 182px 0px 35px;
 }
 
 .header__logo_image {
@@ -43,7 +43,7 @@
 }
 
 .header_address-position {
-  margin: 4px 25px 26px 0px;
+  margin: 4px 20px 26px 0px;
 }
 
 .header_address {

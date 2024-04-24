@@ -1,14 +1,13 @@
 .lots {
   width: 100%;
-  margin-top: 171px;
+  margin-top: 179px;
   margin-left: 8px;
 }
 
 .lots__heading {
   display: grid;
   grid-auto-flow: row;
-  padding-top: 8px;
-  padding-left: 67px;
+  padding-left: 64px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -25,9 +24,10 @@
   flex-wrap: wrap;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  padding: 23px 10px 50px 32px;
+  padding: 27px 24px 50px 24px;
   overflow: auto;
   list-style-type: none;
+  column-gap: 25px;
 }
 
 .lots__card-list-item {
@@ -44,8 +44,8 @@
 .card {
   position: relative;
   align-content: space-between;
-  width: 328px;
-  height: 554px;
+  width: 334px;
+  height: 563x;
   padding-bottom: 0px;
   background-position: center;
 }
@@ -53,7 +53,7 @@
 .card__title {
   position: absolute;
   z-index: 1;
-  margin: 48px 30px 30px 38px ;
+  margin: 50px 30px 30px 38px ;
   color: white;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -65,18 +65,11 @@
   text-transform: uppercase;
 }
 
-.card_type_book {
-  z-index: -1;
-  min-height: 114%;
-  object-fit: cover;
-  background-position: center;
-}
-
 .card__text {
   position: absolute;
   z-index: 1;
   align-self: end;
-  margin: 150px 35px 47px 38px ;
+  margin: 150px 40px 48px 40px ;
   color: white;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -88,7 +81,7 @@
 .lots__look-more-link {
   position: absolute;
   margin-top: -20px;
-  padding-left: 70px;
+  padding-left: 64px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;

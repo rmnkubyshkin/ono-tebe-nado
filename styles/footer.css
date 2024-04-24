@@ -6,7 +6,7 @@
   justify-content: space-between;
   width: 100%;
   min-height: 100px;
-  margin: 175px 5px 89px 5px;
+  margin: 180px 50px 88px 50px;
 }
 
 .footer_address {
@@ -15,7 +15,8 @@
 }
 
 .footer__address-position {
-  padding-left: 57px;
+  padding-left: 10px;
+  padding-top: 2px;
 }
 
 .footer__menu {
@@ -24,9 +25,8 @@
   column-gap: 45px;
   width:100%;
   min-height: 100px;
-  padding-top: 2px;
-  padding-right: 56px;
-  padding-left: 53px;
+  margin-top: 3px;
+  margin-left: -30px;
 }
 
 .footer__menu-list {
@@ -46,7 +46,7 @@
   column-gap: 45px;
   width:100%;
   min-height: 100px;
-  padding-right: 56px;
+  padding-right: 92px;
   list-style-type: none;
 }
 

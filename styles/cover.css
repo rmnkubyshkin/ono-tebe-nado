@@ -4,12 +4,13 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-left: 15px;
   justify-content: center;
-  width: 1082px;
-  height: 743px;
-  margin: 5px 2px 0 15px;
-  background-position: center;
-  background-size: cover;
+}
+
+.cover__image {
+  width: 1100px;
+  height: 757px;
 }
 
 .cover__title {
@@ -19,7 +20,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   width: 1083px;
-  margin: 163px 47px 0 45px;
+  margin: 166px 50px 0 38px;
 }
 
 .aligned-text {
@@ -37,18 +38,18 @@
 }
 
 .aligned-text_center {
-  margin-top: 10px;
-  margin-left: 330px;
+  margin-top: 12px;
+  margin-left: 332px;
+  letter-spacing: 60px;
 }
 
 .aligned-text_right {
-  align-self: flex-end;
   margin-top: 4px;
-  margin-right: 20px;
+  padding-left: 630px;
 }
 
 .letter-spacing-extended {
-  letter-spacing: 58px;
+  letter-spacing: 61px;
 }
 
 .no-letter-spacing {
@@ -60,22 +61,25 @@
   z-index: 2;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  margin: 656px 50px 60px 53px;
+  justify-content: center;
+  margin-left: -8px;
+  margin-right: 50px;
+  margin-top: 667px;
 }
 
 .cover__description-text {
-  width: 633px;
-  margin-left: 28px;
+  width: 637px;
+  margin-right: 78px;
+  margin-left: 78px;
   line-height: 28px;
   text-align: start;
-  word-spacing: 17px;
+  word-spacing: 18px;
 }
 
 .bet-button {
   position: relative;
   margin-top: -12px;
-  margin-left: 64px;
+  margin-right: -6px;
   border: 2px solid #fff;
   padding: 12px 30px;
   line-height: 25.83px;
