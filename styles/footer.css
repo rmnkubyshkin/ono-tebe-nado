@@ -6,7 +6,7 @@
   justify-content: space-between;
   width: 100%;
   min-height: 100px;
-  margin: 180px 50px 88px 50px;
+  margin: 180px 50px 88px 0;
 }
 
 .footer_address {
@@ -16,6 +16,7 @@
 
 .footer__address-position {
   padding-left: 10px;
+  margin-left: 50px;
   padding-top: 2px;
 }
 
@@ -23,7 +24,7 @@
   display: flex;
   justify-content: center;
   column-gap: 45px;
-  width:100%;
+  width: 100%;
   min-height: 100px;
   margin-top: 3px;
   margin-left: -30px;
@@ -38,6 +39,7 @@
   line-height: 21.13px;
   text-align: center;
   list-style-type: none;
+  margin-left: 15px;
 }
 
 .footer__social-list {
@@ -46,7 +48,7 @@
   column-gap: 45px;
   width:100%;
   min-height: 100px;
-  padding-right: 92px;
+  padding-right: 44px;
   list-style-type: none;
 }
 
