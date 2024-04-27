@@ -3,9 +3,7 @@
   justify-content: space-between;
   box-sizing: border-box;
   max-width: 100%;
-  max-height: 105px;
-  margin: 92px 24px 98px 24px;
-
+  margin: 92px 50px 91px 24px;
 }
 
 .header__menu {
@@ -13,8 +11,7 @@
   flex-wrap: nowrap;
   align-items: center;
   align-content: center;
-  height: 30px;
-  margin: 43px 0px 43px 34px;
+  padding-left: 25px;
 }
 
 .header__links-list {
@@ -30,25 +27,24 @@
   list-style-type: circle;
 }
 
-
 .header__logo {
   display: block;
   align-items: stretch;
   width: 135px;
-  margin: 3px 182px 0px 35px;
+  margin-top: 1px;
+  margin-right: -36px;
+  margin-left: -184px;
 }
 
-.header__logo_image {
-  width: 100%;
-}
-
-.header_address-position {
-  margin: 4px 20px 26px 0px;
+.address {
+  margin-bottom: 5px;
+  padding-right: 40px;
 }
 
 .header_address {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  width: 240px;
   line-height: 24.3px;
   text-align: left;
 }

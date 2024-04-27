@@ -1,7 +1,6 @@
 .lots {
   width: 100%;
   margin-top: 179px;
-  margin-left: 8px;
 }
 
 .lots__heading {
@@ -24,36 +23,44 @@
   flex-wrap: wrap;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
+  gap: 25px;
   padding: 27px 24px 50px 24px;
   overflow: auto;
   list-style-type: none;
-  column-gap: 25px;
+  
 }
 
 .lots__card-list-item {
-  display: grid;
-}
-
-.card-link {
-  z-index: 3;
-  display: block;
-  height: 100%;
-  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .card {
   position: relative;
-  align-content: space-between;
+  display: grid;
   width: 334px;
-  height: 563x;
-  padding-bottom: 0px;
+  max-width: 100%;
+  min-height: 563px;
   background-position: center;
 }
 
+.lots__card_image {
+  display: flex;
+  grid-area: 1/2;
+}
+
+.lots__card_content {
+  display: flex;
+  flex-direction: column;
+  grid-area: 1/2;
+  justify-content: flex-end;
+}
 .card__title {
-  position: absolute;
   z-index: 1;
-  margin: 50px 30px 30px 38px ;
+  display: block;
+  height: 100%;
+  padding: 50px 30px 0px 38px;
   color: white;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -66,10 +73,8 @@
 }
 
 .card__text {
-  position: absolute;
   z-index: 1;
-  align-self: end;
-  margin: 150px 40px 48px 40px ;
+  padding: 0 40px 50px 40px;
   color: white;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -78,9 +83,15 @@
   text-align: start;
 }
 
-.lots__look-more-link {
-  position: absolute;
+.card-link {
+  text-decoration: none;
+}
+
+.lots__look-more {
   margin-top: -20px;
+}
+
+.lots__look-more-link {
   padding-left: 64px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;

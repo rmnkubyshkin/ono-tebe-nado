@@ -3,7 +3,7 @@
   flex-wrap: nowrap;
   grid-auto-flow: column;
   width: 100%;
-  margin-top: 185px;
+  margin-top: 180px;
 }
 
 .about__logo {
@@ -12,51 +12,73 @@
   align-content: center;
   width: 352px;
   height: 237px;
+  margin-left: 15px;
 }
 
 .dot {
   z-index: 1;
   display: inline-block;
+  grid-area: 1/2;
   width: 240px;
   height: 240px;
-  margin-left: 45px;
   margin-top: 3px;
   border-radius: 50%;
   background-color: black;
 }
 
 .about__logo-image {
-  position: absolute;
   z-index: 2;
   width: 148px;
   height: 114px;
-  margin: 65px 125px;
+  margin: 62px 47px;
   object-fit: contain;
 }
 
+.about__logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-auto-rows: max-content;
+  grid-area: 1/2;
+  justify-content: flex-end;
+}
+
+.about__logo-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-auto-rows: max-content;
+  grid-area: 1/2;
+  justify-content: flex-end;
+}
 .about__column {
-  width: 715px;
+  margin-right: 30px;
   padding-top: 100px;
+  padding-left: 15px;
 }
 
 .about__title {
-  margin-left: -42px;
+  display: grid;
+  grid-auto-flow: row;  
   margin-top: 2px;
+  padding-left: 0px;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.96px;
+  text-align: left;
+  text-transform: uppercase;
 }
 
 .about__text {
-  padding: 77px 0 0 22px;
+  padding: 77px 0 0 0px;
 }
 
 .about_paragraph {
   padding-top: 23px;
   color: #000;
-}
-
-.about__card-text {
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  letter-spacing: 0.06px;
   text-align: left;
 }
