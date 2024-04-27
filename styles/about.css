@@ -57,7 +57,7 @@
 
 .about__title {
   display: grid;
-  grid-auto-flow: row;  
+  grid-auto-flow: row;
   margin-top: 2px;
   padding-left: 0px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
