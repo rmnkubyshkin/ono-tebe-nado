@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" >
-    <link rel="stylesheet" href="./styles/global.css" >
-    <link rel="stylesheet" href="./styles/style.css" >
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="links-list-item_no-bullit">
-            <a class="link-decoration_active"> главная </a>
+            <a class="main-text-style"> главная </a>
           </li>
           <li class="header__links-list-item">
             <a class="link-decoration" href="#0"> посмотреть лоты </a>
@@ -24,49 +24,55 @@
           </li>
         </ul>
       </nav>
-      <a class="header__logo" href="http://127.0.0.1:5500/">
-        <img
-          src="./images/logo-black.svg"
-          alt="Логотип сайта с надписью 'оно тебе надо'">
-      </a>
-      <address
-        class="address header_address header-text links-list-item_no-bullit"
-      >
-        <a class="header_address link-decoration" href="tel:+99995555555">
-          +9 999 555 5555
+      <div class="header__logo">
+        <a class="header__logo-image" href="http://127.0.0.1:5500/">
+          <img
+            src="./images/logo-black.svg"
+            alt="Логотип сайта с надписью 'оно тебе надо'"
+          />
         </a>
-        <a class="header_address link-decoration" href="mailto:info@sobaka.ge">
+      </div>
+      <address
+        class="address header__address main-text-style links-list-item_no-bullit"
+      >
+        <a class="link-decoration" href="tel:+99995555555"> +9 999 555 5555 </a>
+        <a class="link-decoration" href="mailto:info@sobaka.ge">
           info@sobaka.ge
         </a>
-        <p class="header_address link-decoration_active">
-          наб. Принсенграхт 263-<br>265, Амстердам
-        </p>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover">
         <div class="overlay"></div>
-        <img
-          src="./images/cover.jpg"
-          class="cover__image"
-          alt="Рисунок, на котором нарисованы цветы лотуса маслянными красками.">
-        <h1 class="cover__title">
-          <span class="aligned-text aligned-text_left no-letter-spacing">
-            о<span class="letter-spacing-extended">но</span>
-          </span>
-          <span class="aligned-text aligned-text_center no-letter-spacing">
-            те<span class="letter-spacing-extended">бе</span>
-          </span>
-          <span class="aligned-text aligned-text_right no-letter-spacing">
-            <span class="letter-spacing-extended">н</span>адо
-          </span>
-        </h1>
-        <section class="cover__description">
+        <div class="cover__image-wrapper">
+          <img
+            src="./images/cover.jpg"
+            class="cover__image"
+            alt="Рисунок, на котором нарисованы цветы лотуса маслянными красками."
+          />
+        </div>
+        <div class="cover__title-wrapper">
+          <h1 class="cover__title">
+            <span class="aligned-text aligned-text_left no-letter-spacing">
+              о<span class="letter-spacing-extended">но</span>
+            </span>
+            <span class="aligned-text aligned-text_center no-letter-spacing">
+              те<span class="letter-spacing-extended">бе</span>
+            </span>
+            <span class="aligned-text aligned-text_right no-letter-spacing">
+              <span class="letter-spacing-extended">н</span>адо
+            </span>
+          </h1>
+        </div>
+        <div class="cover__description">
           <h2 class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </h2>
-          <a class="bet-button">Сделать ставку</a>
-        </section>
+          <div class="bet-button-wrapper">
+            <a href="#222" class="bet-button"> Сделать ставку </a>
+          </div>
+        </div>
       </section>
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
@@ -79,7 +85,7 @@
                   <img
                     src="./images/card-lot-01.jpg"
                     alt="Девушка с зеркалом в руках"
-                  >
+                  />
                 </div>
                 <div class="lots__card_content">
                   <h3 class="card__title">
@@ -102,7 +108,7 @@
                   <img
                     src="./images/card-lot-02.jpg"
                     alt="Обложка книги Джеймса Джойса 'Улиcс'"
-                  >
+                  />
                 </div>
                 <div class="lots__card_content">
                   <h3 class="card__title">
@@ -129,7 +135,7 @@
                   <img
                     src="./images/card-lot-03.jpg"
                     alt="Абстрактная картина художника Кандинского"
-                  >
+                  />
                 </div>
                 <div class="lots__card_content">
                   <h3 class="card__title">
@@ -152,15 +158,12 @@
       </section>
       <section class="about">
         <div class="about__logo">
-          <div class="about__logo-wrapper">
-            <img alt="Фигура в виде черного круга" src="./images/ellipse.jpg">
-          </div>
-          <div class="about__logo-image-wrapper">
+          <div class="about__dot-background">
             <img
               src="./images/logo-white.svg"
               class="about__logo-image"
               alt="Логотип сайта с надписью 'Оно тебе надо'."
-            >
+            />
           </div>
         </div>
         <div class="about__column">
@@ -168,16 +171,15 @@
           <div class="about__text">
             <p class="about_paragraph">
               Здесь вы не встретите очередное пафосное собрание невероятно
-              дорогого антиквариата. Наши лоты вообще не должны были попасть<br>
-              ни на один аукцион. Потому что кому нужен дневник
-              девочки-подростка или картина, которую может нарисовать даже
-              ребёнок? Кому нужны все эти странные вещи, созданные любителями?
+              дорогого антиквариата. Наши лоты вообще не должны были попасть ни
+              на один аукцион. Потому что кому нужен дневник девочки-подростка
+              или картина, которую может нарисовать даже ребёнок? Кому нужны все
+              эти странные вещи, созданные любителями?
             </p>
             <p class="about_paragraph">
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
               время. В пух и прах растерзанные критиками. Непринятые и
-              непонятые. Когда-то они казались просто неудачными. Но,
-              несмотря<br>
+              непонятые. Когда-то они казались просто неудачными. Но, несмотря
               на критику, кажущуюся простоту или сложность, сейчас без этих
               лотов невозможно представить современную культуру. Когда в эти
               вещи не верил никто, продолжали верить их создатели. И сейчас эти
@@ -189,59 +191,53 @@
     </main>
     <footer class="footer">
       <address
-        class="address header_address header-text links-list-item_no-bullit"
+        class="address footer__address main-text-style links-list-item_no-bullit"
       >
-        <a class="header_address link-decoration" href="tel:+99995555555">
-          +9 999 555 5555
-        </a>
-        <a class="header_address link-decoration" href="mailto:info@sobaka.ge">
+        <a class="link-decoration" href="tel:+99995555555"> +9 999 555 5555 </a>
+        <a class="link-decoration" href="mailto:info@sobaka.ge">
           info@sobaka.ge
         </a>
-        <p class="header_address link-decoration_active">
-          наб. Принсенграхт 263-<br>265, Амстердам
-        </p>
+        <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer__menu">
-        <ul class="footer__menu-list header-text">
-          <li
-            class="footer__menu-list-item links-list-item_no-bullit header-text"
-          >
-            <a class="link-decoration_active"> главная </a>
+        <ul class="footer__menu-list">
+          <li class="links-list-item_no-bullit">
+            <a class="main-text-style"> главная </a>
           </li>
-          <li class="footer__menu-list-item">
+          <li>
             <a class="link-decoration" href="#0"> посмотреть лоты </a>
           </li>
-          <li class="footer__menu-list-item">
+          <li>
             <a class="link-decoration" href="#1"> об аукционе </a>
           </li>
         </ul>
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a href="/#h13" class="link-decoration">
+          <a href="/#h13">
             <img
               class="footer__social-icon"
               src="./images/yt.svg"
               alt="Значок сайта 'Youtube'"
-            >
+            />
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="/#h14" class="link-decoration">
+          <a href="/#h14">
             <img
               class="footer__social-icon"
               src="./images/vk.svg"
               alt="Значок сайта 'Вконтакте'"
-            >
+            />
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a href="/#h15" class="link-decoration">
+          <a href="/#h15">
             <img
               class="footer__social-icon"
               src="./images/pinterest.svg"
               alt="Значок сайта 'Pinterest'"
-            >
+            />
           </a>
         </li>
       </ul>

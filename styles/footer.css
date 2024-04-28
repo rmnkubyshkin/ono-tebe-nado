@@ -4,14 +4,21 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   margin-top: 175px;
+  margin-bottom: 89px;
   margin-left: 50px;
+}
+
+.footer__address {
+  padding-top: 8px;
+  padding-left: 0;
+  text-align: left;
 }
 
 .footer__menu {
   display: flex;
   padding-top: 8px;
-  padding-right: 80px;
-  padding-left: 75px;
+  padding-right: 100px;
+  padding-left: 110px;
 }
 
 .footer__menu-list {
@@ -29,7 +36,7 @@
   display: flex;
   justify-content: flex-end;
   column-gap: 45px;
-  padding-top: 3px;
+  padding-top: 8px;
   padding-right: 50px;
   list-style-type: none;
 }

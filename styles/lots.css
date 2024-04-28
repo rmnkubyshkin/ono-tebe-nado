@@ -24,7 +24,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   gap: 25px;
-  padding: 27px 24px 50px 24px;
+  padding: 27px 24px 28px 24px;
   overflow: auto;
   list-style-type: none;
   
@@ -54,12 +54,11 @@
   display: flex;
   flex-direction: column;
   grid-area: 1/2;
-  justify-content: flex-end;
+  justify-content: space-between; 
 }
 .card__title {
   z-index: 1;
   display: block;
-  height: 100%;
   padding: 50px 30px 0px 38px;
   color: white;
   font-family: Raleway, Arial, Helvetica, sans-serif;
@@ -88,16 +87,15 @@
 }
 
 .lots__look-more {
-  margin-top: -20px;
-}
-
-.lots__look-more-link {
   padding-left: 64px;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 23.48px;
   text-align: left;
-  text-decoration: underline;
   text-underline-offset: 5px;
+}
+
+.lots__look-more-link {
+  text-decoration: underline;
 }

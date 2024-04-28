@@ -1,27 +1,44 @@
 .cover {
   position: relative;
   z-index: -1;
-  display: flex;
+  display: grid;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+.cover__image-wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-area: 1/2;
+  justify-content: space-between;
+}
 .cover__image {
-  width: 1100px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 0;
+}
+
+.cover__title-wrapper {
+  display: flex;
+  flex-direction: column;
+  grid-area: 1/2;
+  justify-content: space-between;
 }
 
 .cover__title {
-  position: absolute;
   z-index: 2;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 1083px;
-  margin: 166px 57px 0 38px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding-top: 166px;
 }
 
 .aligned-text {
+  min-width: 1100px;
+  padding-right: 20px;
+  padding-left: 50px;
   color: white;
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -32,18 +49,19 @@
 }
 
 .aligned-text_left {
-  margin-left: 47px;
+  text-align: left;
 }
 
 .aligned-text_center {
   margin-top: 12px;
-  margin-left: 332px;
+  padding-left: 20px;
   letter-spacing: 60px;
+  text-align: center;
 }
 
 .aligned-text_right {
   margin-top: 4px;
-  padding-left: 630px;
+  text-align: right;
 }
 
 .letter-spacing-extended {
@@ -55,20 +73,22 @@
 }
 
 .cover__description {
-  position: absolute;
   z-index: 2;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  margin-top: 667px;
-  margin-right: 50px;
-  margin-left: -8px;
+  flex-direction: row;
+  grid-area: 1/2;
+  justify-content: space-evenly;
+  margin-top: 640px;
+  padding-left: 0;
 }
 
 .cover__description-text {
-  max-width: 637px;
-  margin-right: 78px;
-  margin-left: 78px;
+  display: grid;
+  justify-content: start;
+  align-content: start;
+  padding-top: 27px;
+  padding-right: 40px;
+  padding-left: 35px; 
   color: white;
   font-family: Raleway, sans-serif;
   font-weight: 400;
@@ -79,10 +99,16 @@
   word-spacing: 18px;
 }
 
+.bet-button-wrapper {
+  display: block;
+  padding-top: 15px;
+  padding-right: 8px;
+}
+
 .bet-button {
-  position: relative;
-  margin-top: -12px;
-  margin-right: -6px;
+  display: grid;
+  justify-content: center;
+  align-content: start;
   border: 2px solid #fff;
   padding: 12px 30px;
   color: white;
@@ -91,6 +117,7 @@
   font-size: 22px;
   line-height: 25.83px;
   text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
   background-color: rgb(0, 0, 0, 0);
 }
